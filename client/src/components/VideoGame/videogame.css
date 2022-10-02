@@ -4,9 +4,9 @@
     border: 1px solid black;
     margin: 20px;
     padding: 20px;
-    border-radius: 10px;
-    background-color: beige;
-    box-shadow: 6px 5px 9px 4px #108f1b;
+    border-radius: 15px;
+    background-color: rgb(19, 25, 135);
+    box-shadow: 6px 5px 9px 8px #dc329d;
 
 }
 
@@ -37,7 +37,7 @@
     margin-bottom: 20px;
     font-size:x-large;
     font-weight: 600;
-    color: #1411d1;
+    color: #b4397c;
 }
 
 .infoContGenres {
