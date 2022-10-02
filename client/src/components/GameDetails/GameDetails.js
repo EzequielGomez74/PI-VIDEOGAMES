@@ -3,7 +3,7 @@ import {React, useEffect} from 'react'
 import { useDispatch, useSelector}from 'react-redux'
 import { getVideogameDetail, clean } from '../../actions/actions'
 import Navbar from '../NavBar/NavBar'
-import photo from '../../img/created.jpg'
+import photo from '../../img/creacion.jpg'
 import { NavLink } from 'react-router-dom'
 import './gamedetail.css'
 
@@ -75,7 +75,7 @@ export default function GameDetails(props) {
                   }
 
                   <NavLink to="/videogames">
-                    <button>Volver</button>
+                    <button>VOLVER</button>
                   </NavLink>
                 </div>
               ) : (

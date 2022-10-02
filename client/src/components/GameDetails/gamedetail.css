@@ -1,19 +1,20 @@
 .container-detail {
-    background-image: url("../../img/details2.jpg");
+    background-image: url("../../img/details1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;  
+    background-size: cover; 
+    
 }
 
 .details-div {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+   
     z-index: 1;
     margin: 10px;
-    background-color: rgb(149, 187, 223);
-    opacity: 0.8;
+    
+    opacity: 0.9;
 }
 
 .details-div p {
@@ -30,7 +31,8 @@
 }
 
 .details-div img{
-    border: 5px solid black;
+    border: 5px solid rgb(193, 51, 108);
+    border-radius: 15px;
     
     display: flex;
     justify-content: center;
@@ -44,7 +46,7 @@
     display: flex;
     justify-content: center;
     font-size:xx-large;
-    color: black;
+    color: rgb(232, 131, 131);
 }
 
 .div-descr {
@@ -63,15 +65,15 @@
 .div-descr button {
     margin: 5px;
     width: 100px;
-    height: 40px;
+    height: 50px;
     font-family: 'Press Start 2P';
-    position: relative;
-    left: 46%;
+    position:relative;
+    left: 40%;
    
-    background-color:gold
+    background-color:rgb(47, 189, 56)
 }
 
 .div-descr button:hover {
-    background-color: black;
-    color: aqua;
+    background-color: rgb(194, 125, 125);
+    color: rgb(0, 0, 0);
 }

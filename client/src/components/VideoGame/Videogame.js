@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './videogame.css'
-import photo from '../../img/created.jpg'
+import photo from '../../img/crearjuego1.jpg'
 
 
 export default function Videogame({id,name,rating,genres,image}) {
