@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04247cb7.chunk.css",
+    "main.js": "/static/js/main.5c654c98.chunk.js",
+    "main.js.map": "/static/js/main.5c654c98.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fdde3533.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fdde3533.js.map",
+    "static/js/2.ca7aa106.chunk.js": "/static/js/2.ca7aa106.chunk.js",
+    "static/js/2.ca7aa106.chunk.js.map": "/static/js/2.ca7aa106.chunk.js.map",
+    "static/js/3.3ac5daa8.chunk.js": "/static/js/3.3ac5daa8.chunk.js",
+    "static/js/3.3ac5daa8.chunk.js.map": "/static/js/3.3ac5daa8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.04247cb7.chunk.css.map": "/static/css/main.04247cb7.chunk.css.map",
+    "static/js/2.ca7aa106.chunk.js.LICENSE.txt": "/static/js/2.ca7aa106.chunk.js.LICENSE.txt",
+    "static/media/CodePen-404-Page.a4d44b49.gif": "/static/media/CodePen-404-Page.a4d44b49.gif",
+    "static/media/conecting.601aaa28.gif": "/static/media/conecting.601aaa28.gif",
+    "static/media/CrearJuego.css": "/static/media/crear.80c6512c.jpg",
+    "static/media/created.d285bd71.jpg": "/static/media/created.d285bd71.jpg",
+    "static/media/gamedetail.css": "/static/media/details2.6a719c9a.jpg",
+    "static/media/index.css": "/static/media/landing.d126a4e7.jpg",
+    "static/media/llorando.3ec0c111.gif": "/static/media/llorando.3ec0c111.gif",
+    "static/media/videogame.6a3ef65f.png": "/static/media/videogame.6a3ef65f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdde3533.js",
+    "static/js/2.ca7aa106.chunk.js",
+    "static/css/main.04247cb7.chunk.css",
+    "static/js/main.5c654c98.chunk.js"
+  ]
+}

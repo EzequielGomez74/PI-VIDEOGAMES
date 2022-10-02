@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 
-export function searchByName(name) {
+export function searchByName(name)  {
   return function (dispatch) {
     return axios
       .get(`/videogames?name=${name}`)

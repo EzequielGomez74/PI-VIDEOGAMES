@@ -9,7 +9,7 @@ const { Videogame, Genre } = require('../db');
 //TODO -----> GET a "/videogames" <--------
 //
 router.get('/', async (req, res) => {
-    //busco en la DB si tengo juegos creados y me traigo todos
+    //busco en la BASE si tengo juegos creados y me traigo todos
     let videogamesDb = await Videogame.findAll({
         include: Genre
         });       
@@ -125,3 +125,5 @@ router.get('/', async (req, res) => {
 
 
 module.exports = router;
+
+
