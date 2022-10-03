@@ -37,7 +37,7 @@ function SearchBar({searchByName, volverAhome}) {
         <input
           className="bar-btn"
           name="buscar"
-          placeholder="buscá tu juego..."
+          placeholder="Buscá tu juego..."
           onChange={handleInputChange}
           value={input.buscar}
           autoComplete="off"

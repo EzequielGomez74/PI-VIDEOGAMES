@@ -101,7 +101,7 @@ function CrearJuego(props) {
         <NavBar />
         <div className="main-add">
             <div className="container-add">
-                <h2>CREA TU JUEGO!!!-</h2>
+                <h2>¡CREA TU JUEGO!</h2>
                 <div className="div-cont">
                     <form onSubmit={handleSubmit} onChange={handleChange}>
                         

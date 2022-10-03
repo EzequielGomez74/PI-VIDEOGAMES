@@ -6,6 +6,20 @@
     
 
 }
+.container-add input{
+    border-radius: 15px;
+}
+.container-add textarea {
+    border-radius: 15px;
+}
+
+.genres-div {
+    border-radius: 15px;
+}
+
+.plat-div{
+    border-radius: 15px;
+}
 
 .container-add {
 
@@ -21,8 +35,27 @@
     text-align: center;
     font-family: 'Press Start 2P';
     font-size: xx-large;
-    color:black
+    color: rgb(0, 0, 0);
+	text-shadow:
+		0 0 5px rgb(246, 0, 222),
+		0 0 10px rgb(255, 0, 247),
+		0 0 20px rgb(255, 0, 255),
+		0 0 40px rgb(123, 38, 127),
+		0 0 80px rgb(127, 38, 123),
+		0 0 90px rgb(127, 38, 121),
+		0 0 100px rgb(127, 38, 114),
+		0 0 140px rgb(127, 38, 105),
+		0 0 180px rgb(127, 38, 117);
+  animation: parpadear 1.3s infinite backwards;
+    
 }
+@keyframes parpadear {
+	to{
+	color: rgb(207, 207, 207);
+	text-shadow: none;
+	}
+	
+	}
 
 .div-cont {
     display: flex;
@@ -33,9 +66,10 @@
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    border: 1px solid rgb(44, 42, 42);
     width:650px;
-    background-color: grey
+    background-color: rgb(36, 42, 122)
+    
 }
 
 .plat-div {
@@ -45,12 +79,14 @@
     border: 1px solid black;
     width:650px;
     
-    background-color: grey
+    background-color: rgb(36, 42, 122)
 }
 
 .container-add label {
     font-size: large;
     margin: 3px;
+    color: rgb(238, 8, 184);
+    text-shadow: 0.1em 0.1em rgb(62, 63, 63);
 }
 
 .name{

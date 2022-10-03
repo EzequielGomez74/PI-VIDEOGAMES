@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    
 }
 
 .btn {
@@ -12,24 +13,27 @@
     font-family: 'Press Start 2P';
     padding: 10px;
     margin: 20px;
+    border-radius: 20px;
     
-    background-color: rgb(165, 189, 231);
+    background-color: rgb(106, 35, 219);
 }
 
 .bar-btn {
-    font-family: 'Press Start 2P';
+    font-family:'Courier New', Courier, monospace;
     padding: 10px;
     margin: 20px;
     width: 380px;
-    background-color: gold;
+    background-color: rgb(98, 227, 232);
+    color:aliceblue;
+    border-radius: 20px;
    
 }
 
 .btn:hover {
-    background-color: black;
-    color: rgb(109, 113, 118);
+    background-color: rgb(166, 55, 153);
+    color: rgb(255, 255, 255);
 }
 
 .bar-btn:hover {
-    background-color:bisque
+    background-color:rgb(80, 24, 132)
 }
