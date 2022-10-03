@@ -34,7 +34,7 @@
     
     text-align: center;
     font-family: 'Press Start 2P';
-    font-size: xx-large;
+    font-size: 40px;
     color: rgb(0, 0, 0);
 	text-shadow:
 		0 0 5px rgb(246, 0, 222),
@@ -112,8 +112,9 @@
     font-family: 'Press Start 2P';
     padding: 10px;
     margin: 20px;
+    border-radius: 15px;
    
-    background-color:gold
+    background-color:rgb(160, 42, 234)
 }
 
 .div-but-form button:hover {
