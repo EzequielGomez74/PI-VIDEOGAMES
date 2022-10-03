@@ -74,7 +74,7 @@ router.post('/', async (req, res) => {
     if(!name || !description || !rating)
     return res.status(400).json({msg:"faltan datos"})
     try {
-        const gameCreated = await Videogame.findOrCreate({ //devuelvo un array (OJOOO!!!!)
+        const gameCreated = await Videogame.findOrCreate({ //devuelvo un array
           
             where: {
                 name: capitalizar(name),
