@@ -12,11 +12,6 @@ export default function GameDetails(props) {
     let gameDetails = useSelector((state)=>state.gameDetails)
     const {idVideogame} = props.match.params;
 
-    // useEffect(() => {
-    // dispatch(getVideogameDetail(idVideogame));}
-    // return dispatch(clean()){}
-    
-    // ,[])
 
     useEffect(() => {
       dispatch(getVideogameDetail(idVideogame));

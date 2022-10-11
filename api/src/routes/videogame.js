@@ -15,7 +15,7 @@ const { Videogame, Genre } = require('../db');
 router.get('/:idVideogame', async (req, res) => {
   
     const { idVideogame } = req.params
-   //console.log(idVideogame)
+    //console.log(idVideogame)
     //verifico si es un juego creado y me trae el detalle de la BASE DE DATOS
     if (idVideogame.includes('-')) {
         let videogameDb = await Videogame.findOne({
@@ -97,6 +97,19 @@ router.post('/', async (req, res) => {
     } catch (err) {
         throw new Error(err)
     }
+
+    router.delete('/',async (req,res)=>{
+        let {name} = req.query
+        try {
+         await Videogame.destroy({
+            where: {
+              name: name,
+            }
+          })
+          res.status(200).json('game deleted');
+        } catch (error) {
+          console.log(error)
+        }})
    
 })
 
