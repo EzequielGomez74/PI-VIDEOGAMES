@@ -58,7 +58,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-   // ESTO FILTRA LA DB POR REALESE DATE ME LO PIDIERON EN LA CORRECION
+   // ESTO FILTRA LA DB POR REALESE DATE 
     else if (req.query.releaseDate){
         try {
             const date = videogamesDb.filter(d => d.releaseDate.includes(req.query.releaseDate));

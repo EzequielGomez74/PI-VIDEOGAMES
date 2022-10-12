@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
                             
                         }
                     });
-                    //LE APLICO EL FILTRADO QUE ME PIDIERON MACHEANDO LA CONSULTA QUE ES LA QUERY QUE DEFINI CONTRA EL
+                    //LE APLICO EL FILTRADO MACHEANDO LA CONSULTA QUE ES LA QUERY QUE DEFINI CONTRA EL
                     //CAMPO RELEASED PROPIO DE LOS DATOS DE LOS JUEGOS GUARDADOS EN EL ARREGLO Y RETORNO EN RESULTADO
                     const resultado = gammesREADY.filter(g => g.released.includes(consulta));
                     if (resultado.length >= 1){
