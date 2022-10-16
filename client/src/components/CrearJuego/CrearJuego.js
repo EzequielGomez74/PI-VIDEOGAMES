@@ -158,7 +158,7 @@ function CrearJuego(props) {
                             </div>
                             <div>
                                 <input name='Puzzle' value='9' type="checkbox" id="Puzzle" />
-                                <label htmlFor="Puzzle">Puzzle.</label>
+                                <label htmlFor="Puzzle">Puzzle.</label> 
                             </div>
                             <div>
                                 <input name='Arcade' value='10' type="checkbox" id="Arcade" />
@@ -232,4 +232,4 @@ function CrearJuego(props) {
     )
 }
 
-export default CrearJuego
+export default CrearJuego 

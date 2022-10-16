@@ -12,9 +12,9 @@ import Videogames from './components/Videogames/Videogames';
 
 function App() {
   return (
-      <BrowserRouter>
-          <Switch>
-          <Route exact path='/' component={Landing} />
+      <BrowserRouter> 
+          <Switch> 
+          <Route exact path='/' component={Landing} /> 
           <Route exact path='/videogames' component={Videogames} />
           <Route exact path='/crearjuego' component={CrearJuego} />
           <Route exact path='/videogame/:idVideogame' component={GameDetails} />

@@ -4,7 +4,7 @@ import imagen from '../../img/about.png'
 import './about.css'
 
 
-function About() {
+function About() { // muestra la imagen de about
     return (
         <>
         <NavBar />

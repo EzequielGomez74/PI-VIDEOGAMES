@@ -9,15 +9,15 @@ import dotenv from 'dotenv';
 import axios from 'axios';
 dotenv.config()
 
-axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001"
+axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001" // si no hay una variable de entorno, se usa la local
 
-ReactDOM.render(
+ReactDOM.render( // envuelve la app en el provider para que tenga acceso al store
   <React.StrictMode>
     <Provider store={store}>
     <App />
     </Provider> 
   </React.StrictMode>,
   document.getElementById('root')
-);
+); 
 
 reportWebVitals();

@@ -4,7 +4,7 @@ import imagen from '../../img/background.gif'
 
 export default function Landing() {
 
-  return (
+  return ( // muestra la imagen de fondo
     <div className="MyImage">
         <img className="theImage" src={imagen} alt="" />
         <Link to="/videogames">
