@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './landing.css'
-import imagen from '../../img/FONDO1.jpg'
+import imagen from '../../img/imagen.gif'
 
 export default function Landing() {
 
