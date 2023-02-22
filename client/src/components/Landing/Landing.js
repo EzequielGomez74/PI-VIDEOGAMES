@@ -8,7 +8,7 @@ export default function Landing() {
     <div className="MyImage">
         <img className="theImage" src={imagen} alt="" />
         <Link to="/videogames">
-          <button className="myButton">TECHBUNNY</button>
+          <button className="myButton">PI-VIDEOGAMES</button>
         </Link>
     </div>
   );
