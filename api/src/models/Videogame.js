@@ -15,21 +15,21 @@ module.exports = (sequelize) => {
     },
     platforms: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false // es para 
     }, 
     releaseDate: {
       type: DataTypes.STRING
     },
     rating: {
-      type: DataTypes.INTEGER
+      type: DataTypes.INTEGER // integer es 
     },
     id: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
+      type: DataTypes.UUID, // UUID es un tipo de dato que genera un id unico
+      defaultValue: DataTypes.UUIDV4, // UUIDV4 es un tipo de dato que genera un id unico
       primaryKey: true
     },
-  }, {timestamps: true,
-      createdAt: 'creado',
-      updatedAt: false
+  }, {timestamps: true, // timestamps es para que se cree la fecha de creacion y la fecha de actualizacion
+      createdAt: 'creado', // createdAt es para que se cree la fecha de creacion
+      updatedAt: false // updatedAt es para que se cree la fecha de actualizacion
   });
 };

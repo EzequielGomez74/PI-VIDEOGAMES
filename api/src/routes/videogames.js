@@ -104,24 +104,24 @@ router.get('/', async (req, res) => {
 });
 
 //ESTE PUT FUNCIONA FALTA HACERLE EL FRONT
-//router.put('/:id', async (req, res) => {
-//     try {
-//      let id = req.params.id;
-//      let { name, description, rating } = req.body;
-//      await db.Videogame.update(
-//         {name, description, rating},
-//         {
-//             where:{
-//                 id,
-//             },
-//         }
+router.put('/:id', async (req, res) => {
+    try {
+     let id = req.params.id;
+     let { name, description, rating } = req.body;
+     await db.Videogame.update(
+        {name, description, rating},
+        {
+            where:{
+                id,
+            },
+        }
 
-//      );
-//      res.status(200).send('videogame actualizado')
-//     } catch (err) {
-//         console.log(err);
-//     }
-//     })
+     );
+     res.status(200).send('videogame actualizado')
+    } catch (err) {
+        console.log(err);
+    }
+    })
 
 
 module.exports = router;

@@ -5,7 +5,7 @@ import axios from "axios";
 export function searchByName(name)  { // función que busca por nombre
   return function (dispatch) { // recibe el dispatch
     return axios
-      .get(`/videogames?name=${name}`) // hace un get a la ruta /videogames?name= + el nombre que se busca
+    .get(`/videogames?name=${name}`) // hace un get a la ruta /videogames?name= + el nombre que se busca
       .then((res) => { // si la respuesta es exitosa, ejecuta la función dispatch con el tipo SEARCH_BY_NAME y los datos de la respuesta
         console.log(res)
         dispatch({ type: 'SEARCH_BY_NAME', payload: res.data }); // el payload es el array de juegos filtrados

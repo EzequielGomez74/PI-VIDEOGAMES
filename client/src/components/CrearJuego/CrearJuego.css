@@ -6,6 +6,10 @@
     
 
 }
+
+textarea {
+    resize: none;
+  }
 .container-add input{
     border-radius: 15px;
 }

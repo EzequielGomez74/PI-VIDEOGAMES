@@ -37,6 +37,7 @@ const { Videogame, Genre } = sequelize.models;
 // Product.hasMany(Reviews);
 Videogame.belongsToMany(Genre, { through: 'VideogameGenre' });
 Genre.belongsToMany(Videogame, { through: 'VideogameGenre' });
+// esto es para que me cree la tabla intermedia entre videogame y genre
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');

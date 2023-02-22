@@ -25,7 +25,7 @@ router.get('/:idVideogame', async (req, res) => {
             include: Genre
         })
         //Parseo el objeto
-        videogameDb = JSON.stringify(videogameDb);
+        videogameDb = JSON.stringify(videogameDb); 
         videogameDb = JSON.parse(videogameDb);
         
         //dejo un array con los nombres de genero solamente
@@ -69,7 +69,7 @@ router.post('/', async (req, res) => {
 
     const capitalizar = (name)=> {
         return name.charAt(0).toUpperCase() + name.slice(1);
-      }
+      } 
 
     if(!name || !description || !rating)
     return res.status(400).json({msg:"faltan datos"})

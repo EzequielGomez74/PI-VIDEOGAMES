@@ -7,45 +7,47 @@
 
  .myButton{
       position: absolute;
-      left:45%;
-      top:45%;
-      border-radius: 10px;
+      left:50%;
+      top:50%;
+      border-radius: 35px;
       animation: myAnim 1s ease 0s infinite normal forwards;
  }
 
 .MyImage button {
-    font-family: 'Press Start 2P';
+    font-family: 'Poppins';
+    font-size: 21px;
+    color: rgb(255, 255, 255);
     height: 60px;
     width: 180px;
    
-    border: 3px solid rgb(242, 4, 171);
+    border: 5px solid rgb(142, 141, 141);
     background-color: rgb(1, 75, 248);
-    background: linear-gradient(90deg,rgb(137, 25, 223) 10%, #fff 100%);
+    background: linear-gradient(90deg,rgb(168, 209, 43) 10%, rgb(59, 57, 57) 100%);
 }
 
 @keyframes myAnim {
-    0% {
-      animation-timing-function: ease-out;
+    10% {
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
       transform: scale(1);
       transform-origin: center center;
     }
   
-    10% {
+    25% {
       animation-timing-function: ease-in;
       transform: scale(0.91);
     }
   
-    17% {
+    40% {
       animation-timing-function: ease-out;
       transform: scale(0.98);
     }
   
-    33% {
+    60% {
       animation-timing-function: ease-in;
       transform: scale(0.87);
     }
   
-    45% {
+    80% {
       animation-timing-function: ease-out;
       transform: scale(1);
     }

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './landing.css'
-import imagen from '../../img/background.gif'
+import imagen from '../../img/FONDO1.jpg'
 
 export default function Landing() {
 
@@ -8,7 +8,7 @@ export default function Landing() {
     <div className="MyImage">
         <img className="theImage" src={imagen} alt="" />
         <Link to="/videogames">
-          <button className="myButton">VIDEOGAMES</button>
+          <button className="myButton">TECHBUNNY</button>
         </Link>
     </div>
   );

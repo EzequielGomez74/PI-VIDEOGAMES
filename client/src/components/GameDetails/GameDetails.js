@@ -55,6 +55,7 @@ export default function GameDetails(props) {
                     </p>
                   }
                   {
+                    
                     <p>
                       <strong>Genres</strong>:{" "}
                       {`${gameDetails.genres.join(", ")}`} 

@@ -54,7 +54,7 @@
 }
 
 .div-descr p {
-    color: rgb(35, 35, 36);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     
@@ -62,9 +62,10 @@
 
 .descripcion {
     text-align: justify;
-    background-color: rgb(242, 0, 210);
-    opacity: calc(0.9 - 0.1);
+    background-color: rgb(9, 59, 90);
+   
     border-radius: 10px;
+    padding: 10px;
 }
 
 .div-descr button {

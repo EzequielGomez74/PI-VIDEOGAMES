@@ -63,6 +63,7 @@ export default function Videogames() {
                 genres={g.genres}
                 image={g.background_image}
                 id={g.id}
+                
               />
             ))
           ) : typeof currentCards === "string" ? ( // si no hay juegos en el estado global, muestra un mensaje de error

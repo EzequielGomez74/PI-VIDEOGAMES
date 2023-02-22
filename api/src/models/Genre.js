@@ -9,8 +9,8 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-  },{timestamps: true,
-    createdAt: 'creado',
-    updatedAt: false
+  },{timestamps: true, // el timestamps es para que no se cree la columna createdAt y updatedAt
+    createdAt: 'creado', // esto es para que me cree la columna creado
+    updatedAt: false // esto es para que no me cree la columna updatedAt
 });
 };

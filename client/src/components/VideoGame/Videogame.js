@@ -4,7 +4,7 @@ import './videogame.css'
 import photo from '../../img/crearjuego1.jpg'
 
 
-export default function Videogame({id,name,rating,genres,image}) { // recibe las props de Videogames.js
+export default function Videogame({id,name,rating,genres,image,platforms}) { // recibe las props de Videogames.js
     
     return (
       <div className="container-game">
